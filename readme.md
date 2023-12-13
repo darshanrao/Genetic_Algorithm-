@@ -1,27 +1,36 @@
-Genetic Algorithm for Travelling Salesman Problem
-This project presents a Genetic Algorithm solution for the Travelling Salesman Problem (TSP), supported by the USC CSCI561 teaching team.
+# Genetic Algorithm for Travelling Salesman Problem
 
-Background
-The Travelling Salesman Problem involves finding the shortest possible route that visits a given set of cities/locations exactly once and returns to the starting point. Each location is represented by 3D coordinate points (x, y, z). For instance, (10, 0, 30) represents a city with x=10, y=0, z=30.
+This project is a Genetic Algorithm solution for the Travelling Salesman Problem (TSP), supported by the USC CSCI561 teaching team.
 
+## Background
+TSP is defined as given a list of cities/locations, the person has to go to all the locations exactly once, return back to the starting point, and cover the minimum distance as a whole.
+<p align="center"><img src="images/background.png" alt="TSP Background" width="500" /></p>
+A location is represented as a combination of 3D coordinate points, x, y, and z. For example: (10, 0, 30) represents a city with x= 10, y = 0, z= 30.
 
+## Steps
+1. **Initial Population**
+2. **Parent Selection:** Roulette wheel based
+3. **Crossover:** HGA Based
+<p align="center"><img src="images/crossover.png" alt="Crossover" width="500" /></p>
 
-How to Run the Algorithm
-Clone the Repository:
+## How to Run the Algorithm
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/darshanrao/Genetic_Algorithm-.git
+   cd genetic-algorithm-tsp
 
-Install Dependencies:
+## Install Dependencies
 Ensure you have Python installed. Additionally, the algorithm uses standard libraries, so there's no need for additional installations.
 
-Input File:
-Provide the input coordinates in the input.txt file. The format is:
+## Input File
+Provide the input coordinates in the `input.txt` file. The format is:
+  ```bash
+  <number_of_locations>
+  <x1> <y1> <z1>
+  <x2> <y2> <z2>
+  ```
 
-php
-Copy code
-<number_of_locations>
-<x1> <y1> <z1>
-<x2> <y2> <z2>
-...
-Run the Algorithm:
+##Run the Algorithm:
 Execute the following command:
 
 bash
