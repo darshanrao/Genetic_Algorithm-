@@ -37,28 +37,28 @@ Execute the following command:
    Copy code
    python tsp_genetic_algorithm.py
 ```
-Output:
-The algorithm will generate an output.txt file containing the best route and its corresponding distance.
+# Output
+The algorithm will generate an `output.txt` file containing the best route and its corresponding distance.
 
-Algorithm Overview
-Initial Population:
-Randomly generates an initial population of routes.
+## Algorithm Overview
+- **Initial Population:**
+  Randomly generates an initial population of routes.
 
-Parent Selection:
-Utilizes a Roulette Wheel selection method to choose parents based on their fitness.
+- **Parent Selection:**
+  Utilizes a Roulette Wheel selection method to choose parents based on their fitness.
 
-Crossover:
-Applies a Hybrid Genetic Algorithm (HGA) based crossover method to create offspring.
+- **Crossover:**
+  Applies a Hybrid Genetic Algorithm (HGA) based crossover method to create offspring.
 
-Mutation:
-Introduces random mutations to diversify the population.
+- **Mutation:**
+  Introduces random mutations to diversify the population.
 
-Termination:
-The algorithm terminates after a specified maximum time or maximum number of generations.
+- **Termination:**
+  The algorithm terminates after a specified maximum time or maximum number of generations.
 
-References
-CSCI 561- Fall 2023-Homework 1.pdf
-Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf
+## References
+- [CSCI 561- Fall 2023-Homework 1.pdf](CSCI%20561-%20Fall%202023-Homework%201.pdf)
+- [Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf](Solution%20of%20TSP%20problem%20based%20on%20a%20hybrid%20genetic%20simulated%20annealing%20algorithm.pdf)
 
 Feel free to explore and modify the algorithm parameters for different TSP instances. If you encounter any issues or have suggestions, please open an issue or pull request.
 
