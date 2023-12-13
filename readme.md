@@ -1,6 +1,7 @@
 # Genetic Algorithm for Travelling Salesman Problem
 
 This project is a Genetic Algorithm solution for the Travelling Salesman Problem (TSP).
+This is a homework assigment for CSCI561 Foundation of Artificial Intelligence
 
 ## Background
 TSP is defined as given a list of cities/locations, the person has to go to all the locations exactly once, return back to the starting point, and cover the minimum distance as a whole.
