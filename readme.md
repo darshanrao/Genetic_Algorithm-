@@ -4,6 +4,8 @@ This project presents a Genetic Algorithm solution for the Travelling Salesman P
 Background
 The Travelling Salesman Problem involves finding the shortest possible route that visits a given set of cities/locations exactly once and returns to the starting point. Each location is represented by 3D coordinate points (x, y, z). For instance, (10, 0, 30) represents a city with x=10, y=0, z=30.
 
+
+
 How to Run the Algorithm
 Clone the Repository:
 
