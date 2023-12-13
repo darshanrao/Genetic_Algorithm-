@@ -56,8 +56,8 @@ The algorithm will generate an `output.txt` file containing the best route and i
   The algorithm terminates after a specified maximum time or maximum number of generations.
 
 ## References
-- [CSCI 561- Fall 2023-Homework 1.pdf](CSCI 561-Fall 2023-Homework 1.pdf)
-- [Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf](WCE2010_pp11-14.pdf)
+- [CSCI 561- Fall 2023-Homework 1.pdf](https://github.com/darshanrao/Genetic_Algorithm-TSP/blob/main/CSCI%20561-Fall%202023-Homework%201.pdf)
+- [Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf](https://github.com/darshanrao/Genetic_Algorithm-TSP/blob/main/WCE2010_pp11-14.pdf)
 
 Feel free to explore and modify the algorithm parameters for different TSP instances. If you encounter any issues or have suggestions, please open an issue or pull request.
 
