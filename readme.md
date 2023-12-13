@@ -1,6 +1,6 @@
 # Genetic Algorithm for Travelling Salesman Problem
 
-This project is a Genetic Algorithm solution for the Travelling Salesman Problem (TSP), supported by the USC CSCI561 teaching team.
+This project is a Genetic Algorithm solution for the Travelling Salesman Problem (TSP).
 
 ## Background
 TSP is defined as given a list of cities/locations, the person has to go to all the locations exactly once, return back to the starting point, and cover the minimum distance as a whole.
@@ -34,8 +34,7 @@ Provide the input coordinates in the `input.txt` file. The format is:
 Execute the following command:
 
 ```bash
-   Copy code
-   python tsp_genetic_algorithm.py
+   python genetic_algorithm.py
 ```
 # Output
 The algorithm will generate an `output.txt` file containing the best route and its corresponding distance.
@@ -57,8 +56,8 @@ The algorithm will generate an `output.txt` file containing the best route and i
   The algorithm terminates after a specified maximum time or maximum number of generations.
 
 ## References
-- [CSCI 561- Fall 2023-Homework 1.pdf](CSCI%20561-%20Fall%202023-Homework%201.pdf)
-- [Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf](Solution%20of%20TSP%20problem%20based%20on%20a%20hybrid%20genetic%20simulated%20annealing%20algorithm.pdf)
+- [CSCI 561- Fall 2023-Homework 1.pdf](CSCI 561-Fall 2023-Homework 1.pdf)
+- [Solution of TSP problem based on a hybrid genetic simulated annealing algorithm.pdf](WCE2010_pp11-14.pdf)
 
 Feel free to explore and modify the algorithm parameters for different TSP instances. If you encounter any issues or have suggestions, please open an issue or pull request.
 
