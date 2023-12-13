@@ -4,14 +4,14 @@ This project is a Genetic Algorithm solution for the Travelling Salesman Problem
 
 ## Background
 TSP is defined as given a list of cities/locations, the person has to go to all the locations exactly once, return back to the starting point, and cover the minimum distance as a whole.
-<p align="center"><img src="images/background.png" alt="TSP Background" width="500" /></p>
+<p align="center"><img src="background.png" alt="TSP Background" width="500" /></p>
 A location is represented as a combination of 3D coordinate points, x, y, and z. For example: (10, 0, 30) represents a city with x= 10, y = 0, z= 30.
 
 ## Steps
 1. **Initial Population**
 2. **Parent Selection:** Roulette wheel based
 3. **Crossover:** HGA Based
-<p align="center"><img src="images/crossover.png" alt="Crossover" width="500" /></p>
+<p align="center"><img src="crossover.png" alt="Crossover" width="500" /></p>
 
 ## How to Run the Algorithm
 1. **Clone the Repository:**
@@ -30,12 +30,13 @@ Provide the input coordinates in the `input.txt` file. The format is:
   <x2> <y2> <z2>
   ```
 
-##Run the Algorithm:
+## Run the Algorithm:
 Execute the following command:
 
-bash
-Copy code
-python tsp_genetic_algorithm.py
+```bash
+   Copy code
+   python tsp_genetic_algorithm.py
+```
 Output:
 The algorithm will generate an output.txt file containing the best route and its corresponding distance.
 
