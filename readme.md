@@ -17,7 +17,6 @@ A location is represented as a combination of 3D coordinate points, x, y, and z.
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/darshanrao/Genetic_Algorithm-.git
-   cd genetic-algorithm-tsp
 
 ## Install Dependencies
 Ensure you have Python installed. Additionally, the algorithm uses standard libraries, so there's no need for additional installations.
